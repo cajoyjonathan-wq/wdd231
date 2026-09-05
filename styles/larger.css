@@ -1,0 +1,99 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    header img {
+        width: 34px;
+        margin: 10px;
+    }
+
+    header span {
+        display: block;
+        margin: 10px;
+        padding-left: 20px;
+        font-size:xx-large;
+    }
+
+    .hambutton {
+        display: none;
+    }
+
+
+    .navigation {
+        display: block;
+        border-bottom: 1px solid #ddd;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navigation a {
+        border: none;
+        font-size: x-large;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .column {
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        gap: 0.5rem;
+    }
+
+    .column img {
+        width: 300px;
+        height: auto;
+    }
+
+    .course-buttons {
+        display: flex;
+        justify-content: center
+    }
+
+    .course-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 20px;
+    }
+
+    .filter-button {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .headers {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 10px;
+        border-top-right-radius: 8px;
+    }
+
+    .section-card {
+        border-top: 5px;
+        border-bottom: 5px;
+        border-right: 5px;
+        border-color: rgb(2, 2, 2);
+    }
+
+    .apps img {
+        width: 34px;
+        height: auto;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+};
+
+
+

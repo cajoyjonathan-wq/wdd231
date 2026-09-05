@@ -3,13 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="">
+    <title>Jonathan Cajoy WDD - 231</title>
+    <meta name="description" content="W03 Learning Activity">
     <meta name="author" content="Jonathan Cajoy">
-    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <script src="scripts/navigations.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/course-information-cards.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>Jonathan Cajoy WDD 231</header>
-    
+    <header>
+        <img src="images/house-fill.svg" alt="house-logo" width="516" height="516">
+        <span>Jonathan Cajoy</span>
+        <button id="ham-btn" class="hambutton" aria-label="Toggle Navigation menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <div class="column">
+            <section class="non-java">
+                <h2>About Me</h2>
+                <p class="intro">I'm Jonathan Cajoy from the Philippines! I'm interested in Music, Food, and
+                    Learning about the Gospel of Jesus Christ. I'm looking for job opprtunities
+                    to help me become self-reliant. I'd like to travel to new places and and try
+                    new food tastes when I had the time and Resources. I'm still not yet married,
+                    yet preparing for that event in life. I want to be someone who can contribute,
+                    not a burden.
+                </p>
+            </section>
+            <section class="non-java">
+                <picture>
+                    <h2>Student Photo</h2>
+                    <source srcset="images/mission.webp" media="(min-width:1000px)"> 
+                    <img src="images/jonathan.webp" alt="Jonathan Cajoy" loading="lazy">
+                </picture>
+            </section>
+        </div>
+        <section class="non-java-button">
+            <h2>Web Certificate Courses</h2>
+            <div class="course-buttons">
+                <button class="filter-button" type="button" id="all">All Courses</button>
+                <button class="filter-button" type="button" id="CSE">CSE Courses</button>
+                <button class="filter-button" type="button" id="WDD">WDD Courses</button>
+            </div>
+            <p>The total credits for course listed below is <span id="filter-credits"></span></p>
+            <div class="course-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="apps">
+            <a href="https://www.facebook.com/jonathan.cajoy"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/jonathancajoyva/"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://github.com/cajoyjonathan-wq"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+        </div>
+        <div class="footP">
+            <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines </p>
+            <p id="lastModified"></p>
+        </div>
+        
+    </footer>
 </body>
 </html>

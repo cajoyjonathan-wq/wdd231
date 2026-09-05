@@ -1,0 +1,179 @@
+* {
+    font-family: 'Acme';
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: indigo;
+    padding-bottom: 5px;
+
+}
+
+.hambutton {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: indigo;
+    cursor: pointer;
+}
+.hambutton::before {
+    content: "\2630";
+}
+.hambutton.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+.navigation.show{
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    padding: .8rem 10px;
+    color: indigo;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+.navigation a:hover {
+    background-color: gold;
+}
+
+h1 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.non-java {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.non-java-button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: indigo;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+.complete {
+    color: rgb(3, 3, 3);
+    padding-bottom: 5px;
+}
+
+.intro {
+    padding: 15px;
+    background-color: rgb(250, 232, 132);
+}
+
+.course-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-button {
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section-card {
+    margin: 10px;
+    border: 5px solid indigo;
+    border-radius: 8px;
+}
+
+.section-card {
+    border-top: 5px;
+    border-bottom: 5px;
+    border-right: 5px;
+    border-color: rgb(2, 2, 2);
+}
+
+.section-card.completed {
+    background-color: rgb(91, 255, 26);
+}
+
+.section-card.required {
+    background-color: rgb(255, 106, 106);
+}
+
+.headers {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: small;
+    background-color:  rgb(250, 232, 132);
+    padding-left: 10px;
+    border-top-right-radius: 8px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.apps img {
+    width: 34px;
+    height: auto;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footP {
+    color: black;
+    background-color: rgb(250, 232, 132);
+    padding: 10px;
+}

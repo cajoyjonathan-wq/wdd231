@@ -78,13 +78,6 @@
         border-top-right-radius: 8px;
     }
 
-    .section-card {
-        border-top: 5px;
-        border-bottom: 5px;
-        border-right: 5px;
-        border-color: rgb(2, 2, 2);
-    }
-
     .apps img {
         width: 34px;
         height: auto;

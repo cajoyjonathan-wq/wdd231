@@ -5,7 +5,8 @@
     }
 
     header {
-        grid-template-columns: 24px auto;
+        grid-template-columns: auto 1fr;
+        align-items: center;
     }
 
     header img {
@@ -39,8 +40,7 @@
     .navigation a {
         border: none;
         font-size: x-large;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 0.8rem 1.5rem;
     }
 
     .column {
@@ -66,8 +66,7 @@
     }
 
     .filter-button {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding: 0.5rem 1.5rem;
     }
     
     .headers {
@@ -75,7 +74,7 @@
         justify-content: center;
         gap: 10px;
         padding-left: 10px;
-        border-top-right-radius: 8px;
+
     }
 
     .apps img {

@@ -12,7 +12,7 @@ h1 {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 0.5rem;
     border: 1px solid brown;
     box-shadow: 0px 0px 5px 3px brown;

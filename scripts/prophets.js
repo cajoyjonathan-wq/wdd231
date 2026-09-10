@@ -28,7 +28,7 @@ const displayProphets = (prophets) => {
         portait.setAttribute('height', '340');
 
         dateBirth.textContent = `Date of Birth: ${prophet.birthdate}`;
-        placeBirth.textContent = `Date of Birth: ${prophet.birthplace}`;
+        placeBirth.textContent = `Place of Birth: ${prophet.birthplace}`;
 
 
         card.appendChild(fullName);

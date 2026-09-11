@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "companyName": "Robinsons Pagadian",
+            "companyAddress": "FS Pajares Ave cor P.L. Urro St, cor Vicencio Sagun St, San Francisco District, Pagadian City, Zamboanga del Sur",
+            "companyPhoneNumber": "900 700 4567",
+            "companyWebsite": "https://robinsonsmalls.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/robinsons.webp",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "Gaisano Capital",
+            "companyAddress": "RCFR+RCX, Rizal Ave, Pagadian City, Zamboanga del Sur",
+            "companyPhoneNumber": "800 600 4365",
+            "companyWebsite": "https://gaisanomalls.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/gaisano.webp",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "Chandler",
+            "companyAddress": "RCGP+CRC, F. S. Fajares Ave, Pagadian City, Zamboanga del Sur",
+            "companyPhoneNumber": "500 780 7547",
+            "companyWebsite": "https://chandlersmalls.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/chandler.webp",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "Greenhouse",
+            "companyAddress": "Purok Sweet Rose, Pagadian City, 7016 Zamboanga del Sur",
+            "companyPhoneNumber": "097 775 5800",
+            "companyWebsite": "https://greenhouse.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/greenhouse.webp",
+            "membershipLevel": 1
+        },
+        {
+            "companyName": "Jollibee Tiguma",
+            "companyAddress": "Maharlika National Highway, Pagadian City, Zamboanga del Sur",
+            "companyPhoneNumber": "(062) 219 4879",
+            "companyWebsite": "https://jollibee.onelink.me/U65H/googlebusinessprofile",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/jollibee.webp",
+            "membershipLevel": 2
+        },
+        {
+            "companyName": "Aline Hotel",
+            "companyAddress": "RCJP+33V District, B Aquino St. Corner Broca St San Jose, Pagadian City, 7016 Zamboanga del Sur",
+            "companyPhoneNumber": "094 178 3551",
+            "companyWebsite": "https://alinesmalls.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/aline.webp",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "Springland Resort",
+            "companyAddress": "RCJX+95P, Rizal Ave, Pagadian City, Zamboanga del Sur",
+            "companyPhoneNumber": "065 219 1581",
+            "companyWebsite": "https://springland.com/",
+            "imageExtension": "https://cajoyjonathan-wq.github.io/chamber/data/images/springland.webp",
+            "membershipLevel": 2
+        }
+    ]
+}

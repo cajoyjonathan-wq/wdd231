@@ -58,11 +58,15 @@ nav a {
 
 }
 
-nav li.current {
-    background-color: black;
+.largeNav li.current {
+    border-bottom: 1px solid aqua;
 }
 
-nav a:hover {
+.navigation li.current {
+    background-color: skyblue;
+}
+
+.navigation a:hover {
     background-color: rgb(165, 165, 255);
 }
 
@@ -112,7 +116,6 @@ section {
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin: auto;
     margin-top: 10px;
     background-color: gold;
     border: 3px solid navy;
@@ -186,6 +189,7 @@ p {
         p {
             padding: 0;
             margin-top: 0;
+            margin-bottom: 10px;
         }
     }
 

@@ -8,6 +8,8 @@
     <meta name="author" content="Jonathan Cajoy">
     <link href="images/favicon.ico" rel="icon">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
 
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:description"
@@ -28,7 +30,7 @@
         <span>Pagadian City Chamber of Commerce</span>
         <button id="ham-btn" class="hambutton" aria-label="Toggle Navigation Menu"></button>
 
-        <nav>
+        <nav class="largeNav" id="navLargeBar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li class="current"><a href="#">Directory</a></li>
@@ -39,7 +41,20 @@
 
     </header>
 
+    <nav class="navigation" id="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
     <main>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
         <div id="cards" class="cards"></div>
     </main>
 

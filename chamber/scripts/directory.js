@@ -29,7 +29,7 @@ getBusinessData();
 const displayBusinessData = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
-        let fullName = document.createElement('h1');
+        let fullName = document.createElement('h2');
         let portrait = document.createElement('img');
         let companyAddress = document.createElement('p');
         let companyPhoneNumber = document.createElement('p');

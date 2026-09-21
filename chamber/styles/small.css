@@ -95,6 +95,85 @@ nav a {
     text-align: center;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+.article-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.article-mobile p {
+    display: block;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.article-mobile input {
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    background-color: gold;
+}
+
+.article-large {
+    display: none;
+}
+
+.current-event {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    background-color: gold;
+    border: 2px solid navy;
+}
+
+.current-event p {
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.join-button {
+    display: flex;
+    justify-content: center;
+}
+
+.join-button input {
+    padding: 10px;
+    background-color: gold;
+}
+
+.mobile {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    background-color: wheat;
+    margin-bottom: 10px;
+}
+
+.mobile img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
+
+.mobile figcaption {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
 button {
     padding: 5px;
     /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */

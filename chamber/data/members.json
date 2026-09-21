@@ -6,7 +6,8 @@
             "companyPhoneNumber": "900 700 4567",
             "companyWebsite": "https://robinsonsmalls.com/",
             "imageExtension": "images/robinsons.webp",
-            "membershipLevel": "3 - Gold Membership"
+            "membershipLevel": 3,
+            "membershipStatus": "Gold Membership"
         },
         {
             "companyName": "Gaisano Capital",
@@ -14,7 +15,8 @@
             "companyPhoneNumber": "800 600 4365",
             "companyWebsite": "https://gaisanomalls.com/",
             "imageExtension": "images/gaisano.webp",
-            "membershipLevel": "3 - Gold Membership"
+            "membershipLevel": 3,
+            "membershipStatus": "Gold Membership"
         },
         {
             "companyName": "Chandler",
@@ -22,7 +24,8 @@
             "companyPhoneNumber": "500 780 7547",
             "companyWebsite": "https://chandlersmalls.com/",
             "imageExtension": "images/chandler.webp",
-            "membershipLevel": "3 - Gold Membership"
+            "membershipLevel": 3,
+            "membershipStatus": "Gold Membership"
         },
         {
             "companyName": "Greenhouse",
@@ -30,7 +33,8 @@
             "companyPhoneNumber": "097 775 5800",
             "companyWebsite": "https://greenhouse.com/",
             "imageExtension": "images/greenhouse.webp",
-            "membershipLevel": "1 - Member"
+            "membershipLevel": 1,
+            "membershipStatus": "Bronze Membership"
         },
         {
             "companyName": "Jollibee Tiguma",
@@ -38,7 +42,8 @@
             "companyPhoneNumber": "(062) 219 4879",
             "companyWebsite": "https://jollibee.onelink.me/U65H/googlebusinessprofile",
             "imageExtension": "images/jollibee.webp",
-            "membershipLevel": "2 - Silver Membership"
+            "membershipLevel": 2,
+            "membershipStatus": "Silver Membership"
         },
         {
             "companyName": "Aline Hotel",
@@ -46,7 +51,8 @@
             "companyPhoneNumber": "094 178 3551",
             "companyWebsite": "https://alinesmalls.com/",
             "imageExtension": "images/aline.webp",
-            "membershipLevel": "3 - Gold Membership"
+            "membershipLevel": 3,
+            "membershipStatus": "Gold Membership"
         },
         {
             "companyName": "Springland Resort",
@@ -54,7 +60,8 @@
             "companyPhoneNumber": "065 219 1581",
             "companyWebsite": "https://springland.com/",
             "imageExtension": "images/springland.webp",
-            "membershipLevel": "2 - Silver Membership"
+            "membershipLevel": 2,
+            "membershipStatus": "Silver Membership"
         }
     ]
 }

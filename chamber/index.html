@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Home Page</title>
+    <meta name="description"
+        content="This is a Chamber of Commerce Home Page where it lists the businesses in Pagadian City.">
+    <meta name="author" content="Jonathan Cajoy">
+    <link href="images/favicon.ico" rel="icon">
+    <!-- <script src="scripts/directory.js" defer></script> -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Have the Chance to thrive in your business here in Pagadian City! Visit the Chamber of 
+        Commerce page to make networks and boost your business!">
+    <meta property="og:image" content="https://cajoyjonathan-wq.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://cajoyjonathan-wq.github.io/wdd231/chamber/directory.html">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/business-card.svg" alt="Site Logo" width="116" height="116">
+        <span>Pagadian City Chamber of Commerce</span>
+        <button id="ham-btn" class="hambutton" aria-label="Toggle Navigation Menu"></button>
+
+        <nav class="largeNav" id="navLargeBar">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <nav class="navigation" id="nav-bar">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/pagadian.webp" media="(min-width:1000px)">
+                <img src="images/dao.webp" alt="Pagadian Unity Park" loading="lazy">
+            </picture>
+            <article class="article-mobile">
+                <p>The Regional Center of Western Mindanao</p>
+                <input type="button" id="button-mobile" value="Join the Chamber Here!">
+            </article>
+
+            <article class="article-large">
+                <p>The Regional Center of Western Mindanao</p>
+                <input type="button" id="button-large" value="Join the Chamber Here!">
+            </article>
+
+            <figure class="mobile">
+                <p>The current temperature in Pagadian City, Philippines is: <span id="current-temp"></span></p>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+                <p>Day 1: <span id="day1"></span></p>
+                <p>Day 2: <span id="day2"></span></p>
+                <p>Day 3: <span id="day3"></span></p>
+            </figure>
+
+        </div>
+
+        <div class="current-event">
+            <p>Current Events:</p>
+            <p>Slots for Registration are Vailable until December 29!</p>
+        </div>
+
+        <h1>See the Spotlights in these Year's Chamber!</h1>
+        <div id="cards" class="cards"></div>
+    </main>
+
+    <footer>
+        <div class="directoryAddress">
+            <span>Pagadian Chamber of Commerce</span>
+            <p>Pagadian City, Zamboanga del Sur 7016</p>
+            <p>pagadian@Philippines.org</p>
+            <p>(042) 912 8915</p>
+        </div>
+        <div class="apps">
+            <a href="https://www.facebook.com/jonathan.cajoy"><img src="images/facebook.svg"
+                    alt="Jonathan Cajoy's Facebook Page" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/jonathancajoyva/"><img src="images/linkedin.svg"
+                    alt="Jonathan Cajoy's LinkedIn Page" width="16" height="16"></a>
+            <a href="https://github.com/cajoyjonathan-wq"><img src="images/github.svg"
+                    alt="Jonathan Cajoy's Github Page" width="16" height="16"></a>
+        </div>
+        <div class="footP">
+            <p>WDD231 Class Project</p>
+            <p>Jonathan Cajoy</p>
+            <p>&copy;<span id="currentyear"></span> Pagadian Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

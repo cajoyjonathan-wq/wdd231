@@ -17,6 +17,7 @@
 
     .largeNav {
         display: block;
+        z-index: 100;
     }
 
     .largeNav ul {
@@ -38,6 +39,55 @@
     .menu {
         display: flex;
         justify-content: center;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .article-mobile {
+        display: none;
+    }
+
+    .article-large {
+        display: block;
+        position: absolute;
+        top: 50%;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .article-large p {
+        font-size: xx-large;
+        padding: 10px;
+        border-bottom: 1px solid rgb(255, 253, 253);
+    }
+
+    .article-large input {
+        margin-left: 10px;
+        padding: 10px;
+        background-color: gold;
+    }
+
+    .mobile {
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        margin: 0 auto;
+        max-width: 200px;
+        color: rgb(0, 0, 0);
+        background: rgba(255, 192, 110, 0.5);
+        margin-bottom: 10px;
+    }
+
+    .current-event {
+        max-width: 700px;
+    }
+
+
+    .join-button {
+        display: none;
     }
 
     button {

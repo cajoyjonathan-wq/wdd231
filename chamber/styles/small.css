@@ -409,6 +409,13 @@ dialog {
     animation-duration: 1s;
 }
 
+dialog p {
+    padding: 10px;
+    font-style: oblique;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 dialog.modal-np{
     text-align: center;
     color: white;

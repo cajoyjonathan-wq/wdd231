@@ -129,6 +129,10 @@ function createCourseCard(filteredCourses) {
         card.appendChild(pGroup);
         card.appendChild(completedP);
 
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
         courseCard.appendChild(card);
     })
 
@@ -136,32 +140,12 @@ function createCourseCard(filteredCourses) {
 
 createCourseCard(courses);
 
-// const all = document.querySelector("#all");
-
-// all.addEventListener("click", () => {
-//     createCourseCard(courses);
-// });
-
-// const cse = document.querySelector("#CSE");
-
-// cse.addEventListener("click", () => {
-//     const cseFiltered = courses.filter(course => course.subject === "CSE");
-//     createCourseCard(cseFiltered);
-// });
-
-// const wdd = document.querySelector("#WDD");
-
-// wdd.addEventListener("click", () => {
-//     const wddFiltered = courses.filter(course => course.subject === "WDD");
-//     createCourseCard(wddFiltered);
-// });
 
 const totalCredits = document.querySelector("#filter-credits");
 const allButton = document.querySelector("#all");
 const wddButton = document.querySelector("#WDD");
 const cseButton = document.querySelector("#CSE");
 
-createCourseCard(courses);
 
 const creditsFiltered = courses.reduce((runningTotal, course) => {
     return runningTotal + course.credits;
@@ -203,5 +187,32 @@ cseButton.addEventListener("click", () => {
     totalCredits.textContent = totalCseCredits;
 });
  
+
+const courseDetails = document.querySelector("#course-details");
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    courseDetails.showModal();
+
+    const closeModal = document.querySelector("#closeModal");
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
+
+courseDetails.addEventListener("click", (event) => {
+    if (event.target === courseDetails) {
+        courseDetails.close();
+    }
+});
 
 

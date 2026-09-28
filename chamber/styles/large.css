@@ -90,6 +90,27 @@
         display: none;
     }
 
+    main.join {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+    section.membership-cards {
+        height: 0;
+        align-self: start;
+    }
+
+    .member-cards {
+        margin: 10px;
+        background-color: gold;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
     button {
         padding: 10px;
         margin-left: 20px;
@@ -109,6 +130,4 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
-
-
 }

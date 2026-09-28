@@ -201,6 +201,7 @@ section {
     background-color: gold;
     border: 3px solid navy;
     border-radius: 8px;
+    /* align-self: start; */
 }
 
 h1 {
@@ -309,6 +310,169 @@ footer {
     width: 50px;
     height: auto;
 }
+
+main.join {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+form.form label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form.form span.h2-label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bolder;
+}
+
+form.form input[type="text"],
+form.form input[type="tel"],
+form.form input[type="email"],
+form.form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+form.form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form.form fieldset {
+    margin-bottom: 20px;
+    padding: 1rem;
+    border-color: navy;
+    border-radius: 8px;
+}
+
+form.form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.joinform {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section.membership-cards {
+    display: block;
+    background-color: gold;
+}
+
+.member-cards {
+    display: block;
+    border: 2px solid blue;
+}
+
+.member-cards button {
+    margin: 0 auto;
+    width: 100%;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.member-cards {
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+
+dialog {
+    margin: auto;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+dialog.modal-np{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    
+}
+
+dialog.modal-np h2 {
+    border-bottom: 1px solid white;
+    max-width: 60%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+dialog.modal-bronze {
+    text-align: center;
+    color: white;
+    background-color: brown;
+}
+
+dialog.modal-bronze h2 {
+    border-bottom: 1px solid white;
+    max-width: 60%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+dialog.modal-silver {
+    text-align: center;
+    color: black;
+    background-color: silver;
+}
+
+dialog.modal-silver h2 {
+    border-bottom: 1px solid black;
+    max-width: 60%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+dialog.modal-gold {
+    text-align: center;
+    color: gold;
+    background-color: black;
+    font-style: oblique;
+}
+
+dialog.modal-gold h2 {
+    border-bottom: 1px solid gold;
+    max-width: 60%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+dialog button {
+    font-style: italic;
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+}
+
+
 
 
 

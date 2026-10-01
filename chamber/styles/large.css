@@ -47,6 +47,7 @@
 
     .article-mobile {
         display: none;
+        background-color: none;
     }
 
     .article-large {

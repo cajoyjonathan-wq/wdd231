@@ -108,12 +108,14 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    background-color: none;
 }
 
 .article-mobile p {
     display: block;
     font-size: x-large;
     padding: 20px;
+    color: black;
 }
 
 .article-mobile input {

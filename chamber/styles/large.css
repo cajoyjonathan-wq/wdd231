@@ -43,7 +43,7 @@
 
     .hero {
         position: relative;
-        background-color: none;
+        background-color: black;
     }
 
     .article-mobile {
@@ -56,7 +56,7 @@
         position: absolute;
         top: 50%;
         font-weight: bolder;
-        color: black;
+        color: white;
     }
 
     .article-large p {

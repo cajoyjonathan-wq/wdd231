@@ -56,12 +56,13 @@
         position: absolute;
         top: 50%;
         font-weight: bolder;
-        color: white;
+        background-color: none;
     }
 
     .article-large p {
         font-size: xx-large;
         padding: 10px;
+        color: white;
         border-bottom: 1px solid rgb(255, 253, 253);
     }
 

@@ -36,6 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+const articleLarge = document.querySelector("#button-large");
+
+articleLarge.addEventListener('click', () => {
+    window.open("join.html");
+})
+
 
 
 

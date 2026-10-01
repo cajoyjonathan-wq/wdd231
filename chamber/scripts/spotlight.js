@@ -64,3 +64,16 @@ const displayBusinessData = (members) => {
 
     });
 }
+
+const articleMobile = document.querySelector("#button-mobile");
+
+articleMobile.addEventListener('click', () => {
+    window.open("join.html");
+})
+
+const articleLarge = document.querySelector("#button-large");
+
+articleLarge.addEventListener('click', () => {
+    window.open("join.html");
+})
+

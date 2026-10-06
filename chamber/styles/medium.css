@@ -1,0 +1,46 @@
+@media only screen and (min-width: 38rem) {
+    #feature {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas:
+        "photograph name"
+        "photograph address"
+        "photograph description"
+        "photograph button";
+        gap: 1rem 1.5rem;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .feature figure {
+        grid-area: photograph;
+        margin: 0;
+        width: 100%;
+        height: 200px;
+        /* overflow: hidden; */
+    }
+
+    .feature figure img {
+        width: 100%;
+        height: 200px;
+        display: block;
+        /* object-fit: cover; */
+    }
+
+    /* .feature:hover {
+        /* width: 110%; */
+        height: 110%;
+    } */
+
+    .feature figure:hover {
+        height: 210px;
+    }
+
+    .feature figure img:hover {
+        height: 210px;
+    }
+}

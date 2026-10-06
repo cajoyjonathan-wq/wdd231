@@ -1,7 +1,8 @@
-* {
+*, *::before, *::after {
     padding: 0;
     margin: 0;
     font-family: "Google sans";
+    box-sizing: border-box;
 }
 
 
@@ -80,6 +81,7 @@ nav a {
     cursor: pointer;
     font-size: 2rem;
     margin: 20px;
+    color: white;
 }
 
 .hambutton::before {
@@ -478,7 +480,68 @@ dialog button {
     max-width: 200px;
 }
 
+.feature {
+    display: grid;
+    grid-template-areas:
+    "name"
+    "photograph"
+    "address"
+    "description"
+    "button";
+    gap: 1.5rem;
+    margin: 10px;
+}
 
 
+.feature h2 {
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+    grid-area: name;
+    padding: 0%;
+    /* margin: 1rem 10px; */
+}
 
+.feature figure {
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid navy;
+    overflow: hidden;
+    height: 200px;
+    grid-area: photograph;
+    padding: 0%;
+}
+
+.feature figure img {
+    display: block;
+    object-fit: cover;
+}
+
+.feature address {
+    text-align: center;
+    /* padding: 10px; */
+    grid-area: address;
+    /* margin: 1rem 10px; */
+}
+
+.feature p {
+    /* padding: 10px; */
+    grid-area: description;
+    /* margin: 1rem 10px; */
+}
+
+.feature button {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 10px;
+    grid-area: button;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+
+.date {
+    text-align: center;
+    font-size:x-large ;
+}
 

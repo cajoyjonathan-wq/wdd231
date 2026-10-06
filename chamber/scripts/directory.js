@@ -1,3 +1,5 @@
+
+
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 
@@ -60,4 +62,5 @@ const displayBusinessData = (members) => {
 
     });
 }
+
 

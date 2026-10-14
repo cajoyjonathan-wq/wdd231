@@ -174,6 +174,46 @@ div p {
     grid-area: viand;
 }
 
+.dish {
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "viand";
+    gap: 1.5rem;
+    margin: 10px;
+}
+
+
+.dish section {
+    background-color: gold;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 5px solid gainsboro;
+    border-radius: 10px;
+}
+
+.dish h2 {
+    padding: 10px;
+    grid-area: name;
+    border-radius: 8px;
+}
+
+.dish img {
+    border: 5px solid red;
+    grid-area: photograph;
+    border-radius: 8px;
+}
+
+.dish p {
+    grid-area: description;
+}
+
+.dish address {
+    grid-area: viand;
+}
+
 .join {
     margin: 2rem;
 }

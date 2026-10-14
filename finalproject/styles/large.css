@@ -83,10 +83,10 @@
 
         .column-two img {
             width: 100%;
-            max-width: 450px;
+            max-width: 500px;
             /* height: auto; */
             display: block;
-            /* margin: auto; */
+            margin: auto;
         }
 
         .column-two h1 {

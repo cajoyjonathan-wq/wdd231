@@ -115,10 +115,13 @@ div {
     text-align: center;
 }
 
-h1 {
-    padding-top: 10px;
+.home h1 {
+    padding: 10px;
+    background-color: var(--tiertary-color);
     text-align: center;
     font-family: var(--body-font);
+    border-top: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
 }
 
 h2 {

@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0038A7;
-    --secondary-color: red;
+    --secondary-color: rgb(139, 1, 1);
     --tiertary-color: gold;
     --base-color: #eee;
     --heading-font: "Original Surfer", sans-serif;

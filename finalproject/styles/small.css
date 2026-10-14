@@ -134,6 +134,13 @@ div p {
     margin: 10px;
 }
 
+.food h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: xx-large;
+}
+
 .foodcards {
     display: grid;
     grid-template-areas:

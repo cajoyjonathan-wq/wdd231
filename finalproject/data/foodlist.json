@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "Sinigang",
+        "description": "A heartwarming Soup that is usually mixed with Tamarind to reach that iconic sour flavor. Could be used for Pork, Fish and Shrimps.",
+        "imageExtension": "images/sinigang.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 2,
+        "title": "Adobo",
+        "description": "A rich, flavorful meal where either chicken or pork is bathed in a soy-based sauce.",
+        "imageExtension": "images/adobo.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 3,
+        "title": "Lechon",
+        "description": "The National Dish of the country. A whole pig is roasted slowly with spices inside until it reaches that crispy skin texture outside.",
+        "imageExtension": "images/lechon.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 4,
+        "title": "Papaitan",
+        "description": "From the word 'Pait', it means bitter. It uses the goat's bile to make the soup slightly bitter. Its a popular dish in the Northern Philippines.",
+        "imageExtension": "images/papaitan.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 5,
+        "title": "Inasal",
+        "description": "Grilled Marinated Chicken Thigh or Wing, paired with soy sauce and calamansi (Philippine Lime).",
+        "imageExtension": "images/inasal.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 6,
+        "title": "Guso",
+        "description": "Seaweed mixed with vinegar and spices. It helps you taste the ocean, clease your palate, and feel that gelatin-like texture.",
+        "imageExtension": "images/guso.webp",
+        "foodType": "Viand or Side dish"
+    },
+    {
+        "id": 7,
+        "title": "Kare-kare",
+        "description": "Beef Stew mixed with peanut butter and paired with blanched vegatables.",
+        "imageExtension": "images/karekare.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 8,
+        "title": "Beef Tapa",
+        "description": "Thinly sliced beef, marinated with flavorful sauce overnight and then stir-fried to perfection. Best paired with eggs and garlic rice.",
+        "imageExtension": "images/beeftapa.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 9,
+        "title": "Pinakbet",
+        "description": "The famous Vegetable Stew of the Philippines. Vegetables like Squash, Eggplant, Okra, and String beans are mixed with shrimp paste and soy-based sauce.",
+        "imageExtension": "images/pinakbet.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 10,
+        "title": "Dinuguan",
+        "description": "The Blood stew. Pig innards is mixed with blood flavored and cooked until it reaches that creamy texture and brown to black color",
+        "imageExtension": "images/dinuguan.webp",
+        "foodType": "Viand"
+    },
+    {
+        "id": 11,
+        "title": "Bulad",
+        "description": "Salted and Dried Fish. It was one of the oldest way to preserve food in the country. Best paired with Vinegar to balance the saltiness of the fish.",
+        "imageExtension": "images/bulad.webp",
+        "foodType": "Viand or Side dish"
+    },
+    {
+        "id": 12,
+        "title": "Lumpia",
+        "description": "Connected with its Chinese roots, this dish is veggies or meat stuffed inside a wrapper and fried till golden brown. Bast paired with ketchup or sweet & sour sauce.",
+        "imageExtension": "images/lumpia.webp",
+        "foodType": "Viand or Side dish"
+    },
+    {
+        "id": 13,
+        "title": "Pancit Bilao",
+        "description": "Still from Chinese roots, this filipino dish highlights noodles mixed with a soy-based sauce and mixed with sliced veggies, shrimp, and meat.",
+        "imageExtension": "images/pancitbilao.webp",
+        "foodType": "Viand or Side dish"
+    },
+    {
+        "id": 14,
+        "title": "Halo-halo",
+        "description": "A cool Dessert where crushed ice is topped with Ice Cream, jackfruit, sweet beans, gelatin, bananas, and more. Then sweeted with Condensed and Evaporated milk. Perfect for the dry season.",
+        "imageExtension": "images/halohalo.webp",
+        "foodType": "Dessert"
+    },
+    {
+        "id": 15,
+        "title": "Kinilaw",
+        "description": "The Philippine Sushi. Raw fish, mostly tuna, is mixed with vinegar and spices, giving you that refreshing and melt in your mouth texture.",
+        "imageExtension": "images/kinilaw.webp",
+        "foodType": "Viand or Side dish"
+    }
+]

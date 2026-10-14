@@ -1,0 +1,337 @@
+:root {
+    --primary-color: #0038A7;
+    --secondary-color: red;
+    --tiertary-color: gold;
+    --base-color: #eee;
+    --heading-font: "Original Surfer", sans-serif;
+    --body-font: "Segoe UI", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+}
+
+header img {
+    position: static;
+    grid-column: auto;
+    width: 34px;
+    height: 34px;
+    margin: 20px;
+}
+
+header span {
+    position: static;
+    grid-column: auto;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.largeNav {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .8rem 10px;
+    white-space: nowrap;
+    color: black;
+    font-family: var(--body-font);
+}
+
+.largeNav li.current {
+    border-bottom: 3px solid var(--tiertary-color);
+}
+
+.navigation li.current {
+    background-color: skyblue;
+}
+
+.navigation a:hover {
+    background-color: var(--tiertary-color);
+}
+
+.hambutton {
+    position: static;
+    grid-column: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+}
+
+.hambutton::before {
+    content: "\2630";
+}
+
+.hambutton.show::before {
+    font-family: var(--body-font);
+    content: "X";
+    color: var(--base-color);
+}
+
+.menu {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.largeScreen {
+    display: none;
+}
+
+div {
+    margin: 1rem;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--body-font);
+}
+
+h2 {
+    font-family: var(--body-font);
+}
+
+div p {
+    padding: 10px;
+    font-family: var(--body-font);
+}
+
+.food h1 {
+    margin: 10px;
+}
+
+.foodcards {
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "viand";
+    gap: 1.5rem;
+    margin: 10px; 
+}
+
+
+.foodcards section {
+    background-color: gold;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 5px solid gainsboro;
+    border-radius: 10px;
+}
+
+.foodcards h2 {
+    padding: 10px;
+    grid-area: name;
+    border-radius: 8px;
+}
+
+.foodcards img {
+    border: 5px solid red;
+    grid-area: photograph;
+    border-radius: 8px;
+}
+
+.foodcards p {
+    grid-area: description;
+}
+
+.foodcards address {
+    grid-area: viand;
+}
+
+.join {
+    margin: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+form.form input[type="text"],
+form.form input[type="tel"],
+form.form input[type="email"],
+form.form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 0.75rem;
+    margin-bottom: 10px;
+}
+
+form h1 {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    margin: 10px;
+    border: 3px solid red;
+}
+
+legend {
+    font-family: var(--body-font);
+    font-size: x-large;
+    padding: 10px;
+}
+
+fieldset span {
+    font-family: var(--body-font);
+}
+
+form p {
+    font-family: var(--body-font);
+    text-align: center;
+    margin: 20px;
+}
+
+form button {
+    font-family: var(--body-font);
+    font-size: large;
+    font-style: italic;
+    background-color: var(--tiertary-color);
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: var(--secondary-color);
+    color: var(--base-color);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+dialog {
+    margin: auto;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+dialog p {
+    padding: 10px;
+    font-style: oblique;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.member-cards {
+    text-align: center;
+    border: 3px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.member-cards h2 {
+    padding: 10px;
+}
+
+.member-cards button {
+    margin: 10px;
+    font-family: var(--body-font);
+    font-style: italic;
+    padding: 10px;
+    background-color: var(--tiertary-color);
+}
+
+.member-cards button:hover {
+    background-color: var(--secondary-color);
+    color: var(--base-color);
+}
+
+footer {
+    display: grid;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: var(--secondary-color);
+}
+
+
+.directoryAddress {
+    text-align: left;
+}
+
+.directoryAddress p {
+    color: white;
+    text-align: left;
+    padding: 0;
+}
+
+.directoryAddress span {
+    font-family: var(--body-font);
+    font-weight: bold;
+    color: white;
+}
+
+.footP p {
+    text-align: left;
+    padding: 0;
+    color: white;
+}
+
+.footP {
+    text-align: left;
+}
+
+.footP a {
+    font-family: var(--body-font);
+    font-style: italic;
+    color: var(--tiertary-color);
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.apps img {
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino 'Inato' Delcacies</title>
+    <meta name="description"
+        content="This is the final project for WDD231 and it showcases food from the Philippines.">
+    <meta name="author" content="Jonathan Cajoy">
+    <link href="images/favicon.ico" rel="icon">
+    <!-- <script src="scripts/directory.js" defer></script> -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <!-- <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script> -->
+
+    <meta property="og:title" content="Filipino 'Inato' Delicacies">
+    <meta property="og:description" content="Explore the iconic Filipino Cuisines that you've hear about! Venture into some of the most enjoyed food in the country!">
+    <meta property="og:image" content="https://cajoyjonathan-wq.github.io/wdd231/finalproject/images/favicon.ico">
+    <meta property="og:url" content="https://cajoyjonathan-wq.github.io/wdd231/finalproject/directory.html">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/cook.svg" alt="Site Logo" width="116" height="116">
+        <span>Filipino 'Inato' Delcacies</span>
+        <button id="ham-btn" class="hambutton" aria-label="Toggle Navigation Menu"></button>
+
+        <nav class="largeNav" id="navLargeBar">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="foods.html">Foods</a></li>
+                <!-- <li><a href="directory.html">Directory</a></li> -->
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <nav class="navigation" id="nav-bar">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="foods.html">Foods</a></li>
+            <!-- <li><a href="directory.html">Directory</a></li> -->
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="mobile">
+            <div class="column-one">
+                <h1>The Pearl of the Orient</h1>
+                <img src="images/frontimageone.webp" alt="a beach of the Philippines">
+                <p>Located on the Southeast Asia, The Philippine Island is rich in natural beauty, tropical and
+                flavorful cuisines, and hospitable, resilient people. This country is being colonized by
+                the Spaniards, Americans, and Japanese...and over the course of time, local and foreign taste
+                have merged together to create the finest dishes of the Country.</p>
+            </div>
+            
+            <div class="column-two">
+                <h1>A taste that connects the Past and Present</h1>
+                <img src="images/frontimagetwo.webp" alt="a beach of the Philippines">
+                <p>Food is a universal language that connects all people together. Some pre-colonial
+                Filipino Dishes are still being enjoyed on Special Occasions in the country today.
+                Filipinos are passionate and creative in their own way of cooking. Using local ingredients, and sometimes indigenous
+                ways of cooking, Filipinos have made foods that brings a ton of flavor.</p>
+            </div>
+            
+            <div class="column-three">
+                <h1>A Legacy of Resilience</h1>
+                <img src="images/frontimagethree.webp" alt="a beach of the Philippines">
+                <p>Alongside the resilence of enduring storms, typhoons, earthquakes, and civil unrest, the
+                Filipino Spirit still finds its way to be creative and passionate. Like the resilency of the
+                people, the flavors of the Dishes of every Filipino Cuisine is a testament of the Filipino's unwavering
+                resolve to never give up.</p>
+            </div>
+        </section>
+
+        <section class="largeScreen">
+            <div class="column-one">
+                <h1>The Pearl of the Orient</h1>
+                <p>Located on the Southeast Asia, The Philippine Island is rich in natural beauty, tropical and 
+                    flavorful cuisines, and hospitable, resilient people. This country is being colonized by 
+                    the Spaniards, Americans, and Japanese...and over the course of time, local and foreign taste
+                    have merged together to create the finest dishes of the Country.
+                </p>
+                <img src="images/frontimageone.webp" alt="a beach of the Philippines">
+            </div>
+            
+            <div class="column-two">
+                <img src="images/frontimagetwo.webp" alt="a beach of the Philippines">
+                <h1>A taste that connects the Past and Present</h1>
+                <p>Food is a universal language that connects all people together. Some pre-colonial
+                    Filipino Dishes are still being enjoyed on Special Occasions in the country today.
+                    Filipinos are passionate and creative in their own way of cooking. Using local ingredients, and sometimes indigenous ways
+                    of cooking, Filipinos have made foods that brings a ton of flavor. 
+                </p>
+            </div>
+            
+            <div class="column-three">
+                <h1>A Legacy of Resilience</h1>
+                <p>Alongside the resilence of enduring storms, typhoons, earthquakes, and civil unrest, the 
+                    Filipino Spirit still finds its way to be creative and passionate. Like the resilency of the 
+                    people, the flavors of the Dishes of every Filipino Cuisine is a testament of the Filipino's unwavering
+                    resolve to never give up.
+                </p>
+                <img src="images/frontimagethree.webp" alt="a beach of the Philippines">
+            </div>
+        </section>
+
+        <div id="cards" class="cards"></div>
+    </main>
+
+    <footer>
+        <div class="directoryAddress">
+            <span>WDD231 Final Project</span>
+            <p>Pagadian City, Zamboanga del Sur 7016</p>
+            <p>pagadian@Philippines.org</p>
+            <p>(042) 912 8915</p>
+        </div>
+        <div class="apps">
+            <a href="https://www.facebook.com/jonathan.cajoy"><img src="images/facebook.svg"
+                    alt="Jonathan Cajoy's Facebook Page" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/jonathancajoyva/"><img src="images/linkedin.svg"
+                    alt="Jonathan Cajoy's LinkedIn Page" width="16" height="16"></a>
+            <a href="https://github.com/cajoyjonathan-wq"><img src="images/github.svg"
+                    alt="Jonathan Cajoy's Github Page" width="16" height="16"></a>
+        </div>
+        <div class="footP">
+            <a href="https://www.loom.com/share/3159235bfb94400d8f4dbd31df1331ec">Video Link Here</a>
+            <p>WDD231 Final Project</p>
+            <p>Jonathan Cajoy</p>
+            <p>&copy;<span id="currentyear"></span> WDD231 Final Project</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
